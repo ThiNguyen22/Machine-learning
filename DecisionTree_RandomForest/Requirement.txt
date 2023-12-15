@@ -1,0 +1,10 @@
+1. Analyze and Preprocess data - Check if the dataset has missing values or has any other problem.
+2. Feature Engineering
+3. Sampling Your Data
+4. Build Model
+    4. a. Try DecisionTree, RandomForest
+    4. b. Try other tree-based model like: XGBoost, CatBoost
+5. Perform model on training set and test set using gridsearch CV
+6. Measure performance of the model.
+7. Which metric is your main metric for this problem and why? What is your main model as well as their params and why?
+

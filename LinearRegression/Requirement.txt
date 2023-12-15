@@ -1,0 +1,5 @@
+1. Read data
+2. Visualize some information of data
+3. Normalize Data to train linear regression model
+4. Train linear regression model and show the model's intercepts, coeficients
+5. Learn on sklearn how to use Ridge, Lasso, and ElasticNet compare the error of all 3 algorithms with Linear Regression (https://scikit-learn.org/stable/index.html)

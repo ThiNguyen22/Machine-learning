@@ -1,0 +1,13 @@
+1. Analyze and Preprocess data - Check if the dataset has missing values or has any other problem.
+2. Feature Engineering
+3. Determine the cluster number
+    3. a. Use elbow method as baseline
+    3. b. Apply other methods to compare with elbow
+4. Use Pipeline
+    4. a. Use scaler and dimensional reduction (if it is necessary).
+    4. b. Use suitable clustering model for this problem. 
+5. Visualize your cluster in 2D or 3D to compare the result.
+6. Measure performance of your clustering model.
+7. Conclusion and Discussion (<= 200 words, also input your opinion or conclusion here)
+
+

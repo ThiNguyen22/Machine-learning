@@ -1,0 +1,9 @@
+1. Analyze and Preprocess data - Check if the dataset has missing values or has any other problem.
+2. Feature Engineering
+3. Divide the dataset into 2 training and test sets
+4. Use Pipeline
+    4. a. Use scaler and dimensional reduction (if it is necessary).
+    4. b. Use suitable Naive Bayes for this problem. 
+5. Perform model on training set and test set using gridsearch CV
+6. Measure performance of the model.
+7. Which metric is your main metric for this problem and why? What are your scaler, dimensional reduction and naive bayes model as well as their params? (<= 200 words, also input your opinion or conclusion here)

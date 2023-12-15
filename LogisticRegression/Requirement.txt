@@ -1,0 +1,7 @@
+1. Analyze and Preprocess data - Check if the dataset has missing values or has any other problem.
+2. Feature Engineering
+3. Divide the dataset into 2 training and test sets
+4. Use logistic model Regression. Try to apply different solver and penalty to find the best one.
+5. Perform model on training set and test set
+6. Measure performance of the model.
+7. Which metric is your main metric and why? Which solver and penalty have you chosen? (<= 100 words)
