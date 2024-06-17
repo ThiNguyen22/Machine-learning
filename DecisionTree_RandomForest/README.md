@@ -8,15 +8,17 @@ Churn Rate là thước đo tiếp thị mô tả số lượng khách hàng r�
 Thông tin nhân khẩu học của người dùng
 - Hành vi duyệt web
 - Dữ liệu mua hàng lịch sử trong số các thông tin khác
-Nó ảnh hưởng đến những dự đoán về thời gian người dùng sẽ tiếp tục là khách hàng. Điểm này được cập nhật hàng ngày cho tất cả người dùng có tối thiểu một chuyển đổi. Các giá trị được gán nằm trong khoảng từ 1 đến 5.
-Mỗi bảng ghi của một khách hàng bao gồm: age,	gender,	membership_category,	jast_visit_time,	avg_time_spent...
+Nó ảnh hưởng đến những dự đoán về thời gian người dùng sẽ tiếp tục là khách hàng. Điểm này được cập nhật hàng ngày cho tất cả người dùng có tối thiểu một chuyển đổi. Các giá trị được gán nằm trong khoảng từ `1 đến 5`.
+
+Mỗi bảng ghi của một khách hàng bao gồm: `age`,	`gender`, `membership_category`, `jast_visit_time`, `avg_time_spent`,...
 
 
 ## 👀 Screenshots
 
-<img src = "/assets/pic1.PNG">
-<img src = "/assets/pic2.PNG">
-<img src = "/assets/pic3.PNG">
+![](./src/pic1.PNG)
+![](./src/pic2.PNG)
+![](./src/pic3.PNG)
+
 
 
 ## 📓 Overview
