@@ -1,78 +1,50 @@
-## Customer Churn Prediction
+## Customer Churn Risk Prediction
 
 
 
 ## 📌 Problem Definition
-The `Customer Churn table` contains information on all `7,043` customers from a `Telecommunications company` in California in Q2 2022
+`Customer Churn Rate` chứa thông tin của `36992` khách hàng.
+Churn Rate là thước đo tiếp thị mô tả số lượng khách hàng rời khỏi doanh nghiệp trong một khoảng thời gian cụ thể. Mỗi người dùng được chỉ định một giá trị dự đoán để ước tính trạng thái rời bỏ của họ tại bất kỳ thời điểm nào. Giá trị này dựa trên:
+Thông tin nhân khẩu học của người dùng
+- Hành vi duyệt web
+- Dữ liệu mua hàng lịch sử trong số các thông tin khác
+Nó ảnh hưởng đến những dự đoán về thời gian người dùng sẽ tiếp tục là khách hàng. Điểm này được cập nhật hàng ngày cho tất cả người dùng có tối thiểu một chuyển đổi. Các giá trị được gán nằm trong khoảng từ 1 đến 5.
+Mỗi bảng ghi của một khách hàng bao gồm: age,	gender,	membership_category,	jast_visit_time,	avg_time_spent...
 
-Each record represents `one customer`, and contains details about their `demographics`, `location`, `tenure`, `subscription services`, `status for the quarter` `(joined, stayed, or churned)`, and more!
-
-The `Zip Code Population` table contains complimentary information on the estimated populations for the California zip codes in the Customer Churn table
-
-We need to `predict` whether the customer will `churn`, `stay` or `join` the company based on the parameters of the dataset.
-<br><br>
 
 ## 👀 Screenshots
 
-<img src = "/assets/1.png">
-<img src = "/assets/2.png">
-<img src = "/assets/3.png">
-<img src = "/assets/4.png">
+<img src = "/assets/pic1.PNG">
+<img src = "/assets/pic2.PNG">
+<img src = "/assets/pic3.PNG">
 
 
 ## 📓 Overview
 
-| Machine Learning Models Applied            | Accuracy |
+| Machine Learning Models Applied            | Recall |
 | ----------------- | ------------------------------------------------------------------ |
-| Random Forest | 78.11% |
-| Logistic Regression | 78.28% |
-| Naive Bayes Gaussian | 36.77% |
-| Decision Tree | 77.29% |
-| XGB_Classifier | 80.86% |
+| Decision Tree | 73.74% |
+| Random Forest | 75.64% |
+| XGBoost| 76.27% |
+| CatBoost | 76.27% |
 
 <br>
 
 ## 👉 Application
 
-The ability to predict churn before it happens allows businesses to take proactive actions to keep existing customers from churning. This could look like: 
-```
-  Customer success teams reaching out to those high-risk customers to provide support or to gauge 
-  what needs may not be being met.
-```
+Khả năng dự đoán tình trạng rời bỏ trước khi xảy ra cho phép doanh nghiệp thực hiện các hành động chủ động để giữ chân khách hàng hiện tại không rời bỏ. Điều này có thể trông giống như:
 
-The advantage of calculating a company's churn rate is that it provides clarity on how well the business is retaining customers, which is a reflection on the quality of the service the business is providing, as well as its usefulness.
+Ưu điểm của việc tính toán tỷ lệ rời bỏ của công ty là nó cung cấp sự rõ ràng về việc doanh nghiệp giữ chân khách hàng tốt như thế nào, điều này phản ánh chất lượng dịch vụ mà doanh nghiệp đang cung cấp cũng như tính hữu ích của nó.
 
 <br>
 
 ## ✍️ Authors
 
-- [Himanshu Agarwal](https://github.com/himanshu-03)
+- [ThiNguyen](https://github.com/ThiNguyen22)
 
 <br>
 
-## 🔗 Links
-
-
-<a href='https://colab.research.google.com/drive/1vxBD-3onBpIuo83xGhOl9Z07JsKWYK2i?usp=sharing' target="_blank"><img alt='Google Colab' src='https://img.shields.io/badge/Google_Colab-100000?style=for-the-badge&logo=Google Colab&logoColor=FFA200&labelColor=000000&color=FFFFFF'/></a>
-<a href='https://www.kaggle.com/code/hiimanshuagarwal/customer-churn-prediction' target="_blank"><img alt='Kaggle' src='https://img.shields.io/badge/Kaggle-100000?style=for-the-badge&logo=Kaggle&logoColor=20beff&labelColor=black&color=FFFFFF'/></a>
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 <br />
 
-## 🪪 License
-This project follows the [MIT LICENSE](https://choosealicense.com/licenses/mit/).
 
-<br />
-
-<div align="center">
-<h3> Connect with me<a href="https://gifyu.com/image/Zy2f"><img src="https://github.com/milaan9/milaan9/blob/main/Handshake.gif" width="50px"></a>
-</h3> 
-<p align="center">
-    <a href="https://www.github.com/himanshu-03" target="_blank" rel="noreferrer"><img alt="Github" width="37px" src="https://github.com/himanshu-03/himanshu-03/raw/main/assets/socials/github.png"></a> &nbsp&nbsp&nbsp
-    <a href="https://www.linkedin.com/in/agarwal-himanshu" target="_blank"><img alt="LinkedIn" width="35px" src="https://cdn.iconscout.com/icon/free/png-512/free-linkedin-189-721962.png?f=webp&w=256"></a> &nbsp&nbsp&nbsp
-    <a href="https://twitter.com/hiimanshu_03" target="_blank"><img alt="Twitter" width="35px" src="https://freelogopng.com/images/all_img/1690643777twitter-x%20logo-png-white.png"></a> &nbsp&nbsp&nbsp
-    <a href="https://www.instagram.com/_._hiimanshu_._" target="_blank"><img alt="Instagram" width="35px" src="https://github.com/himanshu-03/himanshu-03/raw/main/assets/socials/instagram.png"></a> &nbsp&nbsp&nbsp
-    <a href="mailto:himanshuaaagarwal2002@gmail.com" target="_blank"><img alt="Gmail" width="35px" src="https://github.com/himanshu-03/himanshu-03/raw/main/assets/socials/gmail.png"></a>&nbsp&nbsp&nbsp
-<p align="right">(<a href="#top">Back to top</a>)</p>
-</p> 
