@@ -1,25 +1,13 @@
-# Customer-Marketing-segmentation-with-Machine-Learning
+# Credit Card Customer Segmentation
 
 In this project, the objective is to segment a portfolio of credit card users according to usage characteristics. Customer segmentation is then used by marketing department to tailor products and services specific to these customer segments. 
-# Dataset
-The project uses a dataset of circa 9000 credit card users and their credit card usage pratice.
-
-# Objective
-The objective is to :
-1) analyze the dataset and 
-2) define customer segments based on consumption behaviors using machine learning.
-
-Several unsupervised tools are implemented:
-- K-Means. Optimal number of segments are determined using Elbow method.
-- PCA (Principal Composant Analysis). Apply dimensionality reduction.
-
 
 # Project structure
 - Data exploration.
   - Data wrangling and cleaning
   - Data analysis and visualization for salient elements, trends and correlations
-- K-means application
-- Principal Componant Analysis
+- K-means application. Optimal number of segments are determined using Elbow method.
+- PCA (Principal Composant Analysis). Apply dimensionality reduction.
 
 
 # Results
@@ -35,4 +23,4 @@ Key segment characteristics:
 The picture shows the dataset projection on two principal component axis after dimensionality reduction towards 2D feature space (from 17 features to 2 features). These two dimensions retain 48% of the total variance of the dataset. The axes represents the direction of maximum variance in the data (eigen vectors).
 
 
-![](assets/pca.png)
+![](src/pca.png)
