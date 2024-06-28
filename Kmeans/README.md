@@ -23,4 +23,4 @@ Key segment characteristics:
 The picture shows the dataset projection on two principal component axis after dimensionality reduction towards 2D feature space (from 17 features to 2 features). These two dimensions retain 48% of the total variance of the dataset. The axes represents the direction of maximum variance in the data (eigen vectors).
 
 
-![](src/pca.png)
+![](./src/pca.PNG)
